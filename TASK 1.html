@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Let's Learn</title>
+<meta name="keywords" content="HTML,CSS,Javascript">
+<link rel="shortcut icon" type="image" href="favicon.jpg">
+<style>
+.button {
+  padding: 15px 20px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:#4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 11px 11px 22px -3px rgba(148,139,148,1);
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateX(15px);
+}
+</style>
+<script>
+function myOnclickFunc(){
+	if (document.getElementById("demo").innerHTML=="This is Sathyabharathi") {
+		document.getElementById("demo").innerHTML="This is not Sathyabharathi"
+	} 
+	else { 
+		document.getElementById("demo").innerHTML="This is Sathyabharathi" 
+	} 
+}
+</script>
+</head>
+<body>
+<img src="Learn.png" height="150 px" width="150 px" alt="Let's Learn"><br/>
+<button class="button">Start Learning!</button>
+<h1>First Task</h1>
+<p>The first task is creating a html page with fav icons,keywords,image,button and a small javascript function to change the content of a div.
+<br/>
+Also a CSS animation on a button click.</p>
+<p id="demo">This is Sathyabharathi</p>
+<button class="button" type="button" onclick='myOnclickFunc()'> Click </button>
+</body>
+</html>
