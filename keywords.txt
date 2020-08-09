@@ -1,0 +1,29 @@
+port 
+website url brakdown
+html,css,js
+DNS
+link,script,meta in head tag
+js -> array and array functions like forEach,filter,map,reduce 
+object in javascript 
+json ,xml
+
+node basic ,npm ,http-server in node 
+localhost and server ip
+
+DNS
+nslookup ,tracert
+
+stackflow overflow
+gitlab/github
+https://github.com/pdkatsalem/LearningtasksActech.git
+install vscode or other ide 
+
+
+Task 
+Html page 
+with fav icons
+keywords 
+image
+button 
+small javascript function to change the content of a div 
+css animation on a button click 
